@@ -1,0 +1,22 @@
+[package]
+name = "blurslice"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lindsay Roberts <os@lindsayr.com>"]
+license = "MIT"
+description = "An implementation of \"Fastest Gaussian Blur\" for slices"
+repository = "https://github.com/lsr0/blurslice"
+
+[dependencies]
+
+[[bench]]
+name = "bench"
+harness = false
+
+[[test]]
+name = "file"
+harness = false
+
+[dev-dependencies]
+image = "0"
+criterion = "0.3"
