@@ -1,3 +1,7 @@
+# blurslice
+[![Documentation](https://docs.rs/blurslice/badge.svg)](https://docs.rs/blurslice/)
+[![Crates.io](https://img.shields.io/crates/v/blurslice.svg)](https://crates.io/crates/blurslice)
+
 A fast linear-time gaussian blur based on
 <http://blog.ivank.net/fastest-gaussian-blur.html>.
 
