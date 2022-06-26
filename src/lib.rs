@@ -19,7 +19,7 @@ pub use from_byte_slice::SliceSizeError;
 /// ```
 /// fn blur_fast(rgb_image: &mut image::RgbImage, radius: f32) -> Result<(), blurslice::SliceSizeError> {
 ///     let width = rgb_image.width() as usize;
-///     let height = rgb_image.width() as usize;
+///     let height = rgb_image.height() as usize;
 ///     let samples = rgb_image.as_flat_samples_mut();
 ///     blurslice::gaussian_blur_bytes::<3>(samples.samples, width, height, radius)
 /// }
