@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Lindsay Roberts <os@lindsayr.com>"]
 license = "MIT"
-description = "An implementation of \"Fastest Gaussian Blur\" for slices"
+description = "An implementation of \"Fastest Gaussian Blur\" for N-channel image slices"
 repository = "https://github.com/lsr0/blurslice"
+keywords = ["graphics", "blur", "image"]
+categories = ["multimedia::images", "graphics"]
 
 [dependencies]
 
